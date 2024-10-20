@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-18 13:51:54.144270",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dc_no",
+  "column_break_hht6l",
+  "date",
+  "time",
+  "section_break_dpvok",
+  "scan_lot_barcode",
+  "items",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "dc_no",
+   "fieldtype": "Link",
+   "label": "DC No",
+   "options": "Delivery Note"
+  },
+  {
+   "fieldname": "column_break_hht6l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "section_break_dpvok",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "U1 Material Receipt Smart Screen Item"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "U1 Material Receipt Smart Screen",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "scan_lot_barcode",
+   "fieldtype": "Data",
+   "label": "Scan Lot Barcode",
+   "options": "Barcode"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-10-18 21:33:17.133898",
+ "modified_by": "Administrator",
+ "module": "Shree Polymer Custom New App",
+ "name": "U1 Material Receipt Smart Screen",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
